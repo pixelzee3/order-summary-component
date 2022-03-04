@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-  <h1 class="text-2xl">Hello World</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-background-mobile bg-cover flex justify-center items-center h-screen">
+    <article class="bg-white max-w-sm">
+      <img src="images/illustration-hero.svg" alt="" />
+      <div class="mx-3">
+        <div class="text-center mt-6">
+          <h1 class="text-2xl font-black text-dark-blue">Order Summary</h1>
+          <p class="text-desaturated-blue mt-4">
+            You can now listen to millions of songs, audiobooks, and podcasts on any
+            device, anywhere you like!
+          </p>
+        </div>
+        <div>
+          <img src="images/icon-music.svg" alt="" />
+          <div>
+            <h2 class="text-xl font-black text-dark-blue">Annual Plan</h2>
+            <span class="text-desaturated-blue">$59.99/year</span>
+          </div>
+          <a href="/" class="text-bright-blue font-semibold underline">Change</a>
+        </div>
+        <button class="block text-xl font-bold">Proceed to Payment</button>
+        <button class="block text-xl font-bold text-desaturated-blue">Cancel Order</button>
+      </div>
+    </article>
+  </body>
 </html>
