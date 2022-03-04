@@ -13,27 +13,40 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-background-mobile bg-cover flex justify-center items-center h-screen">
-    <article class="bg-white max-w-sm">
+  <body
+    class="bg-background-mobile bg-cover flex justify-center items-center h-screen"
+  >
+    <article class="bg-white max-w-sm rounded-3xl overflow-hidden">
       <img src="images/illustration-hero.svg" alt="" />
-      <div class="mx-3">
-        <div class="text-center mt-6">
+      <div class="mx-6 mt-6">
+        <div class="text-center">
           <h1 class="text-2xl font-black text-dark-blue">Order Summary</h1>
           <p class="text-desaturated-blue mt-4">
-            You can now listen to millions of songs, audiobooks, and podcasts on any
-            device, anywhere you like!
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device, anywhere you like!
           </p>
         </div>
-        <div>
+        <!-- TODO: Implement a better flex solution -->
+        <div
+          class="flex flex-wrap items-center bg-very-pale-blue p-4 rounded-xl mt-6"
+        >
           <img src="images/icon-music.svg" alt="" />
-          <div>
-            <h2 class="text-xl font-black text-dark-blue">Annual Plan</h2>
+          <div class="grow ml-4">
+            <h2 class="text-lg font-black text-dark-blue">Annual Plan</h2>
             <span class="text-desaturated-blue">$59.99/year</span>
           </div>
-          <a href="/" class="text-bright-blue font-semibold underline">Change</a>
+          <a href="/" class="text-bright-blue font-semibold underline"
+            >Change</a
+          >
         </div>
-        <button class="block text-xl font-bold">Proceed to Payment</button>
-        <button class="block text-xl font-bold text-desaturated-blue">Cancel Order</button>
+        <button
+          class="block text-lg font-bold text-very-pale-blue bg-bright-blue w-full py-3 rounded-xl mt-6 drop-shadow-2xl"
+        >
+          Proceed to Payment
+        </button>
+        <button class="block text-lg font-bold text-desaturated-blue mt-6">
+          Cancel Order
+        </button>
       </div>
     </article>
   </body>
