@@ -16,7 +16,7 @@
   <body
     class="flex h-screen items-center justify-center bg-background-mobile bg-cover"
   >
-    <article class="max-w-sm overflow-hidden rounded-3xl bg-white">
+    <article class="max-w-xs overflow-hidden rounded-3xl bg-white">
       <img src="images/illustration-hero.svg" alt="" class="h-auto w-full" />
       <div class="m-6">
         <div class="text-center">
@@ -26,13 +26,12 @@
             any device, anywhere you like!
           </p>
         </div>
-        <!-- TODO: Implement a better flex solution -->
         <div
-          class="mt-6 flex flex-wrap items-center rounded-xl bg-very-pale-blue p-4"
+          class="mt-6 flex flex-wrap items-center rounded-xl bg-very-pale-blue p-4 overflow-hidden"
         >
           <img src="images/icon-music.svg" alt="" />
           <div class="ml-4 grow">
-            <h2 class="text-lg font-black text-dark-blue">Annual Plan</h2>
+            <h2 class="font-black text-dark-blue">Annual Plan</h2>
             <span class="text-desaturated-blue">$59.99/year</span>
           </div>
           <a href="/" class="font-semibold text-bright-blue underline"
@@ -40,12 +39,12 @@
           >
         </div>
         <button
-          class="mt-6 block w-full rounded-xl bg-bright-blue py-3 text-lg font-bold text-very-pale-blue drop-shadow-2xl"
+          class="mt-6 block w-full rounded-xl bg-bright-blue py-3 font-bold text-very-pale-blue drop-shadow-2xl"
         >
           Proceed to Payment
         </button>
         <div class="flex w-full items-center justify-center">
-          <button class="mt-6 block text-lg font-bold text-desaturated-blue">
+          <button class="mt-6 block font-bold text-desaturated-blue">
             Cancel Order
           </button>
         </div>
